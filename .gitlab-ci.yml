@@ -21,7 +21,7 @@ test_job:
 push_job:
   stage: push_to_dockerhub
   script:
-    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+    - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USER" --password-stdin
     - docker tag currency-converter-app:latest $DOCKERHUB_USER/currency-converter-app:latest
     - docker push $DOCKERHUB_USER/currency-converter-app:latest
   tags:
