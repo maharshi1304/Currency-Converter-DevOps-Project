@@ -1,0 +1,10 @@
+[init]
+	defaultBranch = none
+[fetch]
+	recurseSubmodules = false
+[credential]
+	interactive = never
+[gc]
+	autoDetach = false
+[include]
+	path = /home/ubuntu/gitlab/a-currency-converter/builds/fqjP9yZQt/0/twsdevops6305819/DemoCICD.tmp/.gitlab-runner.ext.conf
