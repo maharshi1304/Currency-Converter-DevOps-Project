@@ -1,0 +1,35 @@
+stages:
+  - build
+  - test
+  - push_to_dockerhub
+  - deploy
+
+build_job:
+  stage: build
+  scripts:
+    - docker build -t currency-converter app latest .
+  tags:
+    - dev
+
+test_job:
+  stage: test
+  scripts:
+    -  echo "testing ...."
+  tags:
+    - dev
+
+push_job:
+  stage: push_to_dockerhub
+  scripts:
+    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+    - docker image tag currency-converter app latest $DOCKERHUB_USER/currency-converter app latest
+    - docker push $DOCKERHUB_USER/currency-converter app latest
+  tags:
+    - dev
+
+deploy_job:
+  satge: deploy
+  scripts:
+    - docker-compose up -d 
+  tags:
+    - dev      
