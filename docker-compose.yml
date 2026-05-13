@@ -4,4 +4,4 @@ services:
   app:
     image: maharshi123/currency-converter-app:latest
     ports:
-      - "8080:80"
+      - "8000:80"
