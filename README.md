@@ -50,7 +50,7 @@ docker-compose up -d
 
 ---
 
-Project Highlights:
+## Project Highlights:
 
 * End-to-end CI/CD implementation
 * Self-hosted GitLab Runner setup
@@ -62,7 +62,7 @@ Project Highlights:
 
 ---
 
-Future Improvements:
+## Future Improvements:
 
 * Kubernetes deployment
 * HTTPS setup
@@ -71,6 +71,6 @@ Future Improvements:
 
 ---
 
-Conclusion:
+## Conclusion:
 
 This project demonstrates practical DevOps skills including CI/CD automation, containerization, cloud deployment, GitLab Runner configuration, and Docker-based application deployment using AWS EC2.
