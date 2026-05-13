@@ -4,6 +4,7 @@
 
 This project demonstrates a complete CI/CD deployment workflow for a Dockerized Currency Converter web application using GitLab CI/CD, Docker, Docker Hub, and AWS EC2 with a self-hosted GitLab Runner.
 
+---
 
 ## Tech Stack
 
@@ -39,16 +40,15 @@ This project demonstrates a complete CI/CD deployment workflow for a Dockerized 
 
 ## Pipeline Screenshot
 
-(Add screenshot here)
-![alt text](image.png)
+
 ---
 
 ## Docker Commands Used
 
-```bash
 docker build -t currency-converter-app:latest .
 docker-compose up -d
 
+---
 
 Project Highlights:
 
@@ -60,6 +60,7 @@ Project Highlights:
 * Linux server configuration
 * CI/CD troubleshooting and debugging
 
+---
 
 Future Improvements:
 
@@ -67,6 +68,8 @@ Future Improvements:
 * HTTPS setup
 * Nginx reverse proxy
 * Monitoring with Prometheus/Grafana
+
+---
 
 Conclusion:
 
