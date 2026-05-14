@@ -11,9 +11,11 @@ The objective of this project is to automate:
 - Docker Hub image push
 - deployment workflow
 
+---
 
 # Architecture Flow
 
+```text
 Developer (MacBook)
         │
         │ Git Push

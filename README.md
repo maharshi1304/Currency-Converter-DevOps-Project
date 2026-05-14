@@ -40,7 +40,7 @@ This project demonstrates a complete CI/CD deployment workflow for a Dockerized 
 
 ## Pipeline Screenshot
 
-![Pipeline Success](screenshots/pipeline-success.png)
+![alt text](screenshots/pipeline-success.png)
 
 ## Docker Commands Used
 
