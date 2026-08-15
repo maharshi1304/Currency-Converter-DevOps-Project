@@ -9,8 +9,8 @@ This project demonstrates a complete CI/CD deployment workflow for a Dockerized 
 # Live Overview
   Link:https://maharshi1304.github.io/A-Currency-Converter/
 
-
-# GitLab: https://gitlab.com/twsdevops6305819/a-currency-converter
+# GitLab
+https://gitlab.com/twsdevops6305819/a-currency-converter
 
 ## Tech Stack
 
